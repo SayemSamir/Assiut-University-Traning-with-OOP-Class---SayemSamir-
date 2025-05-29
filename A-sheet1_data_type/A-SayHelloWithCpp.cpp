@@ -1,9 +1,15 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main()
-{
-    char S;
-    cin >> S;
-
-    cout << "Hello" << S;
+class data{
+  public:
+  void type();
+};
+void data::type(){
+  string name;
+  cin>>name;
+  cout<<"Hello, " << name;
+}
+int main(){
+    data obj;
+    obj.type();
 }
