@@ -25,6 +25,6 @@ void Max::result()
 	cout << max << endl;
 }
 int main(){
-  max obj;
+ Max obj;
   obj.result();
 }
